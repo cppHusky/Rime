@@ -1,11 +1,11 @@
 var:
-  last_build_time: 1708338717
+  last_build_time: 1708343722
   option:
     full_shape: false
-  previously_selected_schema: luna_pinyin_simp
+  previously_selected_schema: cangjie5
   schema_access_time:
-    bopomofo_tw: 1708336777
-    cangjie5: 1708337729
-    luna_pinyin_simp: 1708338342
-    wubi86: 1708336760
+    bopomofo_tw: 1708344588
+    cangjie5: 1708344701
+    luna_pinyin_simp: 1708344229
+    wubi86: 1708344564
     wubi_86: 1708322264

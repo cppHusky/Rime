@@ -1,7 +1,7 @@
 __build_info:
   rime_version: 1.8.5
   timestamps:
-    cangjie5.custom: 1708335030
+    cangjie5.custom: 1708343717
     cangjie5.schema: 1686057626
     default: 1686057630
     default.custom: 1708338674
@@ -384,5 +384,5 @@ translator:
   encode_commit_history: true
   max_phrase_length: 1
   preedit_format:
-    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田曰卜片|"
+    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜片|"
   sentence_over_completion: false
