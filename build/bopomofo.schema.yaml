@@ -3,10 +3,8 @@ __build_info:
   timestamps:
     bopomofo.custom: 0
     bopomofo.schema: 1686057626
-    bopomofo_tw.custom: 0
-    bopomofo_tw.schema: 1686057626
     default: 1686057630
-    default.custom: 1708300970
+    default.custom: 1708300916
     grammar: 0
     key_bindings: 1686057630
     key_bindings.custom: 0
@@ -195,14 +193,16 @@ schema:
   dependencies:
     - stroke
   description: |
-    注音符號輸入，採用「大千式」鍵盤排列，輸出臺灣正體字形。
+    注音符號輸入，採用「大千式」鍵盤排列。
 
     本方案採用「無模式」設計，以大寫字母鍵或上下方向鍵、回車鍵選詞；
-    空格鍵輸入第一聲，標記爲「ˉ」。也可省略聲調或韻母部份。
+    空格鍵輸入第一聲，標記爲「ˉ」。
 
-  name: "注音·臺灣正體"
-  schema_id: bopomofo_tw
-  version: 1.8
+    請配合 librime>=1.3 使用。
+
+  name: "注音"
+  schema_id: bopomofo
+  version: 2.4
 speller:
   algebra:
     - "xform/^m(\\d)$/mu$1/"
@@ -230,6 +230,10 @@ speller:
     - "xform/er/R/"
     - "xform/eh/E/"
     - "xform/([iv])e/$1E/"
+    - "derive/([bpmfdtnlgkhjqxZCSrzcs])([iuv])/$2$1/"
+    - "derive/([iuv])([aoeEAIOUMNKGR])/$2$1/"
+    - "derive/([bpmfdtnlgkhjqxZCSrzcs])([aoeEAIOUMNKGR])/$2$1/"
+    - "derive/([bpmfdtnlgkhjqxZCSrzcs])([iuv])/$2$1/"
     - "abbrev/^([bpmfdtnlgkhjqxZCSrzcs]).+$/$1/"
     - "abbrev/^([A-Za-z]+)\\d$/$1/"
     - "abbrev/^([bpmfdtnlgkhjqxZCSrzcs]).+(\\d)$/$1$2/"
@@ -246,13 +250,12 @@ switches:
   - name: full_shape
     states: ["半角", "全角"]
   - options: [zh_hant, zh_hans, zh_hant_tw]
-    reset: 2
     states: ["傳統漢字", "简化字", "臺灣字形"]
 translator:
   dictionary: terra_pinyin
   preedit_format:
     - "xlit|1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/- 6347'|ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦˉˊˇˋ˙ |"
-  prism: bopomofo_tw
+  prism: bopomofo
 zh_hans:
   excluded_types:
     - reverse_lookup

@@ -1,5 +1,2 @@
-2024/02/18-21:10:24.650000 14448 Recovering log #3
-2024/02/18-21:10:24.650000 14448 Level-0 table #5: started
-2024/02/18-21:10:24.659000 14448 Level-0 table #5: 252 bytes OK
-2024/02/18-21:10:24.673000 14448 Delete type=0 #3
-2024/02/18-21:10:24.673000 14448 Delete type=3 #2
+2024/02/19-08:02:14.755000 16248 Creating DB C:\Users\cppHu\AppData\Roaming\Rime\luna_pinyin.userdb since it was missing.
+2024/02/19-08:02:14.790000 16248 Delete type=3 #1
