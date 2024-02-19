@@ -16,6 +16,7 @@ patch:
     version: 0.21
   menu:
     import_preset: default
+    page_size: 3 #每頁候選數為3
   engine:
     processors:
       - ascii_composer

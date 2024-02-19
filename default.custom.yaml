@@ -7,18 +7,14 @@ customization:
   modified_time: "Mon Feb 19 08:02:50 2024"
   rime_version: 1.8.5
 patch:
-  menu:
-    page_size: 5 #每頁候選數為5
-  switcher:
-    hotkeys:
-      - "Control+grave" #僅能使用Ctrl+`喚出方案選單
+  switcher/hotkeys:
+    - "Control+grave" #僅能使用Ctrl+`喚出方案選單
   schema_list:
     - {schema: wubi86}
     - {schema: luna_pinyin_simp}
     - {schema: cangjie5}
     - {schema: bopomofo_tw}
-  key_binder:
-    bindings:
+  key_binder/bindings:
       #[ ]翻頁
       - { when: has_menu, accept: bracketleft, send: Page_Up }
       - { when: has_menu, accept: bracketright, send: Page_Down }
@@ -27,7 +23,8 @@ patch:
       - { when: has_menu, accept: Tab, send: Page_Down }
   punctuator:
     full_shape:
-      "`": ["｀", "·", "・"]
+      " ": {commit: "　"}
+      "`": {commit: "｀"}
       "~": {commit: "～"}
       "!": {commit: "！"}
       "@": ["＠", "☯", "©", "®", "℗"]
@@ -60,11 +57,11 @@ patch:
       "?": {commit: "？"}
       "/": ["／", "÷"]
     half_shape:
-      "`": ["·", "`"]
+      "`": {commit: "`"}
       "~": {commit: "~"}
       "!": {commit: "！"}
-      "@": "@"
-      "#": "#"
+      "@": {commit: "@"}
+      "#": {commit: "#"}
       "$": ["￥", "$", "€", "£", "¥", "¢", "¤"]
       "%": {commit: "%"}
       "^": {commit: "……"}
