@@ -1,2 +1,8 @@
-2024/02/19-08:02:14.755000 16248 Creating DB C:\Users\cppHu\AppData\Roaming\Rime\luna_pinyin.userdb since it was missing.
-2024/02/19-08:02:14.790000 16248 Delete type=3 #1
+2024/02/19-14:00:31.444000 10536 Log #27: 0 ops saved to Table #30 OK
+2024/02/19-14:00:31.444000 10536 Archiving C:\Users\cppHu\AppData\Roaming\Rime\luna_pinyin.userdb/000027.log: OK
+2024/02/19-14:00:31.444000 10536 Log #29: 0 ops saved to Table #31 OK
+2024/02/19-14:00:31.444000 10536 Archiving C:\Users\cppHu\AppData\Roaming\Rime\luna_pinyin.userdb/000029.log: OK
+2024/02/19-14:00:31.445000 10536 Table #5: 5 entries OK
+2024/02/19-14:00:31.445000 10536 Table #7: 2 entries OK
+2024/02/19-14:00:31.445000 10536 Archiving C:\Users\cppHu\AppData\Roaming\Rime\luna_pinyin.userdb/MANIFEST-000026: OK
+2024/02/19-14:00:31.454000 10536 **** Repaired leveldb C:\Users\cppHu\AppData\Roaming\Rime\luna_pinyin.userdb; recovered 2 files; 417 bytes. Some data may have been lost. ****

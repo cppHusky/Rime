@@ -1,2 +1,7 @@
-2024/02/18-22:09:03.884000 11024 Creating DB C:\Users\cppHu\AppData\Roaming\Rime\cangjie5.userdb since it was missing.
-2024/02/18-22:09:03.902000 11024 Delete type=3 #1
+2024/02/19-14:18:31.015000 2628 Log #219: 0 ops saved to Table #222 OK
+2024/02/19-14:18:31.015000 2628 Archiving C:\Users\cppHu\AppData\Roaming\Rime\cangjie5.userdb/000219.log: OK
+2024/02/19-14:18:31.015000 2628 Log #221: 0 ops saved to Table #223 OK
+2024/02/19-14:18:31.015000 2628 Archiving C:\Users\cppHu\AppData\Roaming\Rime\cangjie5.userdb/000221.log: OK
+2024/02/19-14:18:31.015000 2628 Table #217: 347 entries OK
+2024/02/19-14:18:31.016000 2628 Archiving C:\Users\cppHu\AppData\Roaming\Rime\cangjie5.userdb/MANIFEST-000218: OK
+2024/02/19-14:18:31.021000 2628 **** Repaired leveldb C:\Users\cppHu\AppData\Roaming\Rime\cangjie5.userdb; recovered 1 files; 13067 bytes. Some data may have been lost. ****

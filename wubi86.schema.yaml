@@ -2,29 +2,43 @@ __build_info:
   rime_version: 1.8.5
   timestamps:
     default: 1686057630
-    default.custom: 1708323410
+    default.custom: 1708322442
     key_bindings: 1686057630
     key_bindings.custom: 0
     punctuation: 1686057630
     punctuation.custom: 0
-ascii_composer:
-  good_old_caps_lock: true
-  switch_key:
-    Caps_Lock: clear
-    Control_L: noop
-    Control_R: noop
-    Eisu_toggle: clear
-    Shift_L: inline_ascii
-    Shift_R: commit_text
-config_version: 0.40
+    wubi86.custom: 1708322393
+    wubi86.schema: 1708322376
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - reverse_lookup_translator
+    - table_translator
 key_binder:
   bindings:
     - {accept: bracketleft, send: Page_Up, when: has_menu}
     - {accept: bracketright, send: Page_Down, when: has_menu}
     - {accept: "Shift+Tab", send: Page_Up, when: has_menu}
     - {accept: Tab, send: Page_Down, when: has_menu}
+  import_preset: default
 menu:
-  page_size: 5
+  import_preset: default
+  page_size: 4
 punctuator:
   full_shape:
     "!": {commit: "！"}
@@ -92,6 +106,7 @@ punctuator:
     "|": ["·", "|", "｜", "§", "¦"]
     "}": ["』", "〗", "｝"]
     "~": {commit: "~"}
+  import_preset: default
   symbols:
     "/0": ["〇", "零", "₀", "⁰", "⓪", "⓿", "０"]
     "/1": ["一", "壹", "₁", "¹", "Ⅰ", "ⅰ", "①", "➀", "❶", "➊", "⓵", "⑴", "⒈", "１", "㊀", "㈠", "弌", "壱", "幺", "㆒"]
@@ -295,15 +310,56 @@ punctuator:
     "/zmq": ["ⓐ", "Ⓐ", "ⓑ", "Ⓑ", "ⓒ", "Ⓒ", "ⓓ", "Ⓓ", "ⓔ", "Ⓔ", "ⓕ", "Ⓕ", "ⓖ", "Ⓖ", "ⓗ", "Ⓗ", "ⓘ", "Ⓘ", "ⓙ", "Ⓙ", "ⓚ", "Ⓚ", "ⓛ", "Ⓛ", "ⓜ", "Ⓜ", "ⓝ", "Ⓝ", "ⓞ", "Ⓞ", "ⓟ", "Ⓟ", "ⓠ", "Ⓠ", "ⓡ", "Ⓡ", "ⓢ", "Ⓢ", "ⓣ", "Ⓣ", "ⓤ", "Ⓤ", "ⓥ", "Ⓥ", "ⓦ", "Ⓦ", "ⓧ", "Ⓧ", "ⓨ", "Ⓨ", "ⓩ", "Ⓩ"]
     "/zy": ["ㄅ", "ㄆ", "ㄇ", "ㄈ", "ㄉ", "ㄊ", "ㄋ", "ㄌ", "ㄍ", "ㄎ", "ㄏ", "ㄐ", "ㄑ", "ㄒ", "ㄓ", "ㄔ", "ㄕ", "ㄖ", "ㄗ", "ㄘ", "ㄙ", "ㄧ", "ㄨ", "ㄩ", "ㄚ", "ㄛ", "ㄜ", "ㄝ", "ㄞ", "ㄟ", "ㄠ", "ㄡ", "ㄢ", "ㄣ", "ㄤ", "ㄥ", "ㄦ", "ㄪ", "ㄫ", "ㄬ", "ㄭ", "ㆠ", "ㆡ", "ㆢ", "ㆣ", "ㆤ", "ㆥ", "ㆦ", "ㆧ", "ㆨ", "ㆩ", "ㆪ", "ㆫ", "ㆬ", "ㆭ", "ㆮ", "ㆯ", "ㆰ", "ㆱ", "ㆲ", "ㆳ", "ㆴ", "ㆵ", "ㆶ", "ㆷ"]
 recognizer:
+  import_preset: default
   patterns:
     email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
+    reverse_lookup: "^z[a-z]*'?$"
     uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
     url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
-schema_list:
-  - schema: wubi86
-  - schema: luna_pinyin_simp
-  - schema: cangjie5
-  - schema: bopomofo_tw
-switcher:
-  hotkeys:
-    - "Control+grave"
+reverse_lookup:
+  dictionary: pinyin_simp
+  preedit_format:
+    - "xform/([nl])v/$1ü/"
+    - "xform/([nl])ue/$1üe/"
+    - "xform/([jqxy])v/$1u/"
+  prefix: z
+  suffix: "'"
+  tips: "〔拼音〕"
+schema:
+  author:
+    - "發明人 王永民先生"
+  dependencies:
+    - pinyin_simp
+  description: |
+    五筆字型86版
+    碼表源自 微軟五筆 
+    敲 z 鍵進入拼音反查
+
+  name: "五笔86"
+  schema_id: wubi86
+  version: 0.21
+speller:
+  auto_select: true
+  auto_select_unique_candidate: true
+  delimiter:
+    {}
+  max_code_length: 4
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: ["中文", "西文"]
+  - name: full_shape
+    states: ["半角", "全角"]
+  - name: extended_charset
+    states: ["常用", "增廣"]
+  - name: ascii_punct
+    states: ["。，", "．，"]
+translator:
+  dictionary: wubi86
+  disable_user_dict_for_patterns:
+    - "^z.*$"
+  enable_charset_filter: true
+  enable_encoder: true
+  enable_sentence: false
+  enable_user_dict: false
+  encode_commit_history: true

@@ -1,0 +1,11 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.15.0.0
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Mon Feb 19 08:02:50 2024"
+  rime_version: 1.8.5
+patch:
+  # style:
+    # horizontal: false #候選詞豎排
+    # inline_preedit: false #非內嵌編碼
+    # display_tray_icon: true #顯示托盤圖標
