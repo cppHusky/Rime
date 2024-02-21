@@ -1,6 +1,7 @@
-distribution_code_name: Weasel
-distribution_name: "小狼毫"
-distribution_version: 0.15.0.0
+distribution_code_name: "ibus-rime"
+distribution_name: Rime
+distribution_version: 1.5.0
 install_time: "Mon Feb 19 08:02:02 2024"
 installation_id: "e32dbddb-bfb3-404f-91c2-17c188eae791"
 rime_version: 1.8.5
+update_time: "Wed Feb 21 22:08:07 2024"
