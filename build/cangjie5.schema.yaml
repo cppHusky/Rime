@@ -1,13 +1,13 @@
 __build_info:
   rime_version: 1.8.5
   timestamps:
-    cangjie5.custom: 1708524359
-    cangjie5.schema: 1614091814
-    default: 1649520780
-    default.custom: 1708524359
-    key_bindings: 1649520780
+    cangjie5.custom: 1708924528
+    cangjie5.schema: 1686057626
+    default: 1686057630
+    default.custom: 1708923472
+    key_bindings: 1686057630
     key_bindings.custom: 0
-    punctuation: 1649520780
+    punctuation: 1686057630
     punctuation.custom: 0
 abc_segmentor:
   extra_tags:
@@ -333,7 +333,7 @@ reverse_lookup:
     - "xform/([nl])ue/$1üe/"
     - "xform/([jqxy])v/$1u/"
   prefix: "`"
-  prism: luna_quanpin
+  prism: luna_pinyin
   suffix: "'"
   tips: "〔拼音〕"
 schema:

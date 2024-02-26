@@ -1,5 +1,12 @@
-2024/02/19-20:03:49.379000 11728 Recovering log #62
-2024/02/19-20:03:49.379000 11728 Level-0 table #64: started
-2024/02/19-20:03:49.379000 11728 Level-0 table #64: 4195 bytes OK
-2024/02/19-20:03:49.394000 11728 Delete type=0 #62
-2024/02/19-20:03:49.394000 11728 Delete type=3 #61
+2024/02/26-12:56:40.487000 16976 Log #65: 40 ops saved to Table #69 OK
+2024/02/26-12:56:40.488000 16976 Archiving C:\Users\cppHu\AppData\Roaming\Rime\luna_pinyin.userdb/000065.log: OK
+2024/02/26-12:56:40.500000 16976 Log #68: 42 ops saved to Table #70 OK
+2024/02/26-12:56:40.501000 16976 Archiving C:\Users\cppHu\AppData\Roaming\Rime\luna_pinyin.userdb/000068.log: OK
+2024/02/26-12:56:40.506000 16976 Table #60: 43 entries OK
+2024/02/26-12:56:40.507000 16976 Table #64: 162 entries OK
+2024/02/26-12:56:40.511000 16976 Table #67: 40 entries OK
+2024/02/26-12:56:40.511000 16976 Table #69: 40 entries OK
+2024/02/26-12:56:40.511000 16976 Table #70: 42 entries OK
+2024/02/26-12:56:40.512000 16976 Archiving C:\Users\cppHu\AppData\Roaming\Rime\luna_pinyin.userdb/MANIFEST-000063: OK
+2024/02/26-12:56:40.514000 16976 Archiving C:\Users\cppHu\AppData\Roaming\Rime\luna_pinyin.userdb/MANIFEST-000066: OK
+2024/02/26-12:56:40.523000 16976 **** Repaired leveldb C:\Users\cppHu\AppData\Roaming\Rime\luna_pinyin.userdb; recovered 5 files; 9239 bytes. Some data may have been lost. ****
