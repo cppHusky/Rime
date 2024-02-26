@@ -2749,10 +2749,10 @@ encoder:
 驈	ccbk
 騥	ccbs
 又	ccc
-敠	cccc
-䮕	cccc
 又	cccc
 叕	cccc
+敠	cccc
+䮕	cccc
 叄	cccd
 參	ccce
 驂	ccce
@@ -13321,10 +13321,10 @@ encoder:
 㽮	lllg
 纍	llli
 轟	lllj
-㔣	llll
 田	llll
 轠	llll
 〇	llll
+㔣	llll
 罍	lllm
 䝱	lllm
 勰	llln
@@ -16366,8 +16366,8 @@ encoder:
 火	ooo
 飊	oooj
 㲭	ooon
-燚	oooo
 火	oooo
+燚	oooo
 燊	ooos
 爃	ooos
 焱	ooou
@@ -31833,6 +31833,7 @@ encoder:
 譝	yxg
 訠	yxhh
 率	yxi
+率	yxif
 䢦	yxip
 玅	yxit
 紊	yxiu
