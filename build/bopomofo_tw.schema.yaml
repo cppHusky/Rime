@@ -6,7 +6,7 @@ __build_info:
     bopomofo_tw.custom: 1708338654
     bopomofo_tw.schema: 1686057626
     default: 1686057630
-    default.custom: 1708923472
+    default.custom: 1711867549
     grammar: 0
     key_bindings: 1686057630
     key_bindings.custom: 0
@@ -53,8 +53,6 @@ key_binder:
   bindings:
     - {accept: bracketleft, send: Page_Up, when: has_menu}
     - {accept: bracketright, send: Page_Down, when: has_menu}
-    - {accept: "Shift+Tab", send: Page_Up, when: has_menu}
-    - {accept: Tab, send: Page_Down, when: has_menu}
     - {accept: comma, send: comma, when: has_menu}
     - {accept: period, send: period, when: has_menu}
     - {accept: minus, send: minus, when: has_menu}

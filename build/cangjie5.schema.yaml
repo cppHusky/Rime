@@ -1,10 +1,10 @@
 __build_info:
   rime_version: 1.8.5
   timestamps:
-    cangjie5.custom: 1708924528
+    cangjie5.custom: 1708926805
     cangjie5.schema: 1686057626
     default: 1686057630
-    default.custom: 1708923472
+    default.custom: 1711867549
     key_bindings: 1686057630
     key_bindings.custom: 0
     punctuation: 1686057630
@@ -40,8 +40,6 @@ key_binder:
   bindings:
     - {accept: bracketleft, send: Page_Up, when: has_menu}
     - {accept: bracketright, send: Page_Down, when: has_menu}
-    - {accept: "Shift+Tab", send: Page_Up, when: has_menu}
-    - {accept: Tab, send: Page_Down, when: has_menu}
   import_preset: default
 menu:
   page_size: 3

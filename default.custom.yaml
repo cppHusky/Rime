@@ -8,7 +8,7 @@ customization:
   rime_version: 1.8.5
 patch:
   switcher/hotkeys:
-    - "Control+grave" #僅能使用Ctrl+`喚出方案選單
+    - F4 #僅能使用F4喚出方案選單
   schema_list:
     - {schema: wubi86}
     - {schema: luna_pinyin_simp}
@@ -18,9 +18,6 @@ patch:
       #[ ]翻頁
       - { when: has_menu, accept: bracketleft, send: Page_Up }
       - { when: has_menu, accept: bracketright, send: Page_Down }
-      #Tab/Shift+Tab翻頁
-      - { when: has_menu, accept: Shift+Tab, send: Page_Up }
-      - { when: has_menu, accept: Tab, send: Page_Down }
   punctuator:
     full_shape:
       " ": {commit: "　"}
