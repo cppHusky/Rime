@@ -1,0 +1,131 @@
+# Rime user dictionary
+#@/db_name	terra_pinyin
+#@/db_type	userdb
+#@/rime_version	1.8.5
+#@/tick	166
+#@/user_id	e32dbddb-bfb3-404f-91c2-17c188eae791
+ban4 jiao3 	半角	c=1 d=0.603506 t=166
+ben3 	本	c=1 d=0.843665 t=166
+bi3 hua4 	筆畫	c=2 d=1.7962 t=166
+bi3 jiao4 	比較	c=1 d=0.618783 t=166
+biao1 dian3 	標點	c=2 d=1.20418 t=166
+biao1 dian3 fu2 hao4 	標點符號	c=1 d=0.752014 t=166
+bu4 	不	c=0 d=0.056836 t=166
+bu4 pai2 chu2 	不排除	c=1 d=0.571209 t=166
+can1 jian4 	參見	c=1 d=0.625002 t=166
+can1 yue4 	參閱	c=1 d=0.543351 t=166
+cang1 jie2 shu1 ru4 fa3 	倉頡輸入法	c=1 d=0.814647 t=166
+chang2 	長	c=1 d=0.440432 t=166
+chen2 shu4 	陳述	c=1 d=0.524663 t=166
+ci2 ku4 	詞庫	c=2 d=1.42711 t=166
+ci2 pin2 	詞頻	c=1 d=0.748264 t=166
+ci2 zu3 	詞組	c=1 d=0.729789 t=166
+da4 qian1 	大千	c=3 d=2.51392 t=166
+da4 qian1 zhu4 yin1 	大千注音	c=1 d=0.511709 t=166
+dai4 	帶	c=1 d=0.946485 t=166
+dao4 	到	c=1 d=0.451581 t=166
+de5 	的	c=5 d=3.52932 t=166
+dong4 tai4 	動態	c=1 d=0.740818 t=166
+du2 te4 	獨特	c=1 d=0.771052 t=166
+e2 wai4 	額外	c=1 d=0.70822 t=166
+fan1 yi4 	翻譯	c=1 d=0.447088 t=166
+fan3 cha2 	反查	c=1 d=0.895834 t=166
+fang1 an4 	方案	c=6 d=3.79008 t=166
+fen1 tiao2 	分條	c=1 d=0.522046 t=166
+gai1 	該	c=2 d=1.34503 t=166
+ge4 	個	c=1 d=0.694197 t=166
+ge4 xiang4 	各項	c=1 d=0.527292 t=166
+gen1 ju4 	根據	c=1 d=0.442639 t=166
+gong1 neng2 	功能	c=1 d=0.865022 t=166
+gui1 ze2 	規則	c=1 d=0.913931 t=166
+he2 	和	c=1 d=0.737123 t=166
+heng2 	橫	c=1 d=0.923116 t=166
+hou4 	後	c=0 d=0.0694197 t=166
+hou4 xuan3 	候選	c=1 d=0.718924 t=166
+hou4 xuan3 xiang4 	後選項	c=1 d=0.697676 t=166
+huan4 qi3 	喚起	c=1 d=0.640824 t=166
+hun4 	混	c=1 d=0.822835 t=166
+hun4 he2 	混合	c=1 d=0.794534 t=166
+ji1 yu2 	基於	c=6 d=4.05325 t=166
+jian3 jie2 	簡潔	c=1 d=0.621885 t=166
+jiang1 	將	c=1 d=0.856415 t=166
+jun1 	均	c=1 d=0.67368 t=166
+jun1 bu4 	均不	c=0 d=0.0786628 t=166
+jun1 bu4 yun3 xu3 	均不允許	c=1 d=0.790571 t=166
+ka1 shi2 	喀什	c=1 d=0.449329 t=166
+ke3 yi3 	可以	c=3 d=1.96102 t=166
+ke3 yi3 yong4 	可以用	c=1 d=0.650509 t=166
+kuai4 jie2 jian4 	快捷鍵	c=1 d=0.65377 t=166
+li4 wai4 	例外	c=1 d=0.574072 t=166
+ling4 	另	c=1 d=0.774916 t=166
+mei3 ye4 	每頁	c=1 d=0.690734 t=166
+mo2 shi4 	模式	c=2 d=1.26059 t=166
+mo4 ren4 	默認	c=4 d=2.42829 t=166
+na4 	捺	c=1 d=0.937067 t=166
+pai2 chu2 	排除	c=0 d=0.056836 t=166
+pei4 zhi4 	配置	c=4 d=2.62215 t=166
+pei4 zhi4 fang1 an4 	配置方案	c=1 d=0.763379 t=166
+pie3 	撇	c=1 d=0.932394 t=166
+pin1 yin1 	拼音	c=2 d=1.73143 t=166
+qian1 shu4 	簽署	c=1 d=1 t=166
+qiao1 ji2 	敲擊	c=1 d=0.878095 t=166
+qie1 huan4 	切換	c=1 d=0.657047 t=166
+qiu1 	丘	c=1 d=0.995012 t=166
+qu3 xiao1 	取消	c=2 d=1.74307 t=166
+quan2 jiao3 	全角	c=1 d=0.582748 t=166
+quan2 ju2 	全局	c=1 d=0.565525 t=166
+ru2 	如	c=1 d=0.806541 t=166
+shang4 wei4 	尚未	c=1 d=0.701173 t=166
+she4 ding4 	設定	c=1 d=0.56836 t=166
+shi3 yong4 	使用	c=1 d=0.683861 t=166
+shi4 	是	c=1 d=0.918512 t=166
+shu1 	輸	c=1 d=0.826959 t=166
+shu1 chu1 	輸出	c=1 d=0.460704 t=166
+shu1 ru4 	輸入	c=3 d=2.19562 t=166
+shu1 ru4 fa3 	輸入法	c=4 d=2.03701 t=166
+shu4 	豎	c=2 d=1.36598 t=166
+suo3 you3 	所有	c=1 d=0.67032 t=166
+tai2 wan1 	臺灣	c=0 d=0.107675 t=166
+tai2 wan1 zheng4 ti3 	臺灣正體	c=4 d=3.0378 t=166
+te4 shu1 	特殊	c=0 d=0.0755784 t=166
+te4 shu1 de5 	特殊的	c=1 d=0.759572 t=166
+te4 xing4 	特性	c=1 d=0.537944 t=166
+tiao2 zheng3 	調整	c=1 d=0.744532 t=166
+tong1 guo4 	通過	c=1 d=0.88692 t=166
+wei2 wu2 er3 yu3 	維吾爾語	c=1 d=0.453845 t=166
+wen2 jian4 	文件	c=1 d=0.634448 t=166
+wen2 zi4 	文字	c=1 d=0.472367 t=166
+wu2 yi1 li4 wai4 	無一例外	c=1 d=0.786628 t=166
+xiang1 dui4 	相對	c=1 d=0.597501 t=166
+xiang2 jian4 	詳見	c=1 d=0.767206 t=166
+xiang2 xi4 	詳細	c=1 d=0.600496 t=166
+xiang4 	項	c=1 d=0.722527 t=166
+xuan3 dan1 	選單	c=1 d=0.644036 t=166
+xuan3 xiang4 	選項	c=0 d=0.0694197 t=166
+yi3 	以	c=1 d=0.680451 t=166
+yi3 	已	c=1 d=0.852144 t=166
+yi3 gong4 	以供	c=1 d=0.540641 t=166
+yi3 xia4 	以下	c=1 d=0.506617 t=166
+yin3 hao4 	引號	c=1 d=0.444858 t=166
+yin3 qing2 	引擎	c=1 d=0.496585 t=166
+ying1 wen2 	英文	c=1 d=0.526792 t=166
+ying1 wen2 mo2 shi4 	英文模式	c=1 d=0.687289 t=166
+you2 	由	c=1 d=0.489192 t=166
+you3 	有	c=2 d=1.33563 t=166
+yuan2 ben3 	原本	c=0 d=0.0806541 t=166
+yuan2 ben3 de5 	原本的	c=1 d=0.810584 t=166
+yun3 xu3 	允許	c=1 d=0.897394 t=166
+zai4 	在	c=1 d=0.839457 t=166
+zhe2 	折	c=1 d=0.941765 t=166
+zhe4 ge5 	這個	c=2 d=1.31238 t=166
+zhe4 xie1 	這些	c=1 d=0.778801 t=166
+zheng4 ti3 	正體	c=0 d=0.107675 t=166
+zhi1 	之	c=1 d=0.535261 t=166
+zhi1 chi2 	支持	c=2 d=1.23024 t=166
+zhi3 neng2 yong4 	只能用	c=1 d=0.637628 t=166
+zhi4 zuo4 	製作	c=2 d=0.990718 t=166
+zhong1 wen2 	中文	c=1 d=0.474734 t=166
+zhong1 ying1 wen2 	中英文	c=1 d=0.66034 t=166
+zhu4 yin1 	注音	c=8 d=6.10323 t=166
+zi4 ji3 	自己	c=1 d=0.481909 t=166
+zi4 yong4 	自用	c=1 d=0.467666 t=166

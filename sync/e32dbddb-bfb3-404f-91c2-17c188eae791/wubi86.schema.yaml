@@ -1,14 +1,14 @@
 __build_info:
-  rime_version: 1.10.0
+  rime_version: 1.8.5
   timestamps:
-    default: 1654509030
-    default.custom: 1715563994
-    key_bindings: 1654509030
+    default: 1686057630
+    default.custom: 1708322442
+    key_bindings: 1686057630
     key_bindings.custom: 0
-    punctuation: 1654509030
+    punctuation: 1686057630
     punctuation.custom: 0
-    wubi86.custom: 1715170254
-    wubi86.schema: 1715170254
+    wubi86.custom: 1708322393
+    wubi86.schema: 1708322376
 engine:
   processors:
     - ascii_composer
@@ -33,13 +33,14 @@ key_binder:
   bindings:
     - {accept: bracketleft, send: Page_Up, when: has_menu}
     - {accept: bracketright, send: Page_Down, when: has_menu}
+    - {accept: "Shift+Tab", send: Page_Up, when: has_menu}
+    - {accept: Tab, send: Page_Down, when: has_menu}
   import_preset: default
 menu:
   import_preset: default
-  page_size: 3
+  page_size: 4
 punctuator:
   full_shape:
-    " ": {commit: "　"}
     "!": {commit: "！"}
     "\"": {pair: ["“", "”"]}
     "#": ["＃", "⌘", "№"]
@@ -67,7 +68,7 @@ punctuator:
     "]": ["」", "】", "〕", "］"]
     "^": {commit: "……"}
     _: {commit: "——"}
-    "`": {commit: "｀"}
+    "`": ["｀", "·", "・"]
     "{": ["『", "〖", "｛"]
     "|": ["·", "｜", "§", "¦"]
     "}": ["』", "〗", "｝"]
@@ -75,7 +76,7 @@ punctuator:
   half_shape:
     "!": {commit: "！"}
     "\"": {pair: ["“", "”"]}
-    "#": {commit: "#"}
+    "#": "#"
     "$": ["￥", "$", "€", "£", "¥", "¢", "¤"]
     "%": {commit: "%"}
     "&": {commit: "&"}
@@ -94,13 +95,13 @@ punctuator:
     "=": {commit: "="}
     ">": ["》", "〉", "»", "›"]
     "?": {commit: "？"}
-    "@": {commit: "@"}
+    "@": "@"
     "[": ["「", "【", "〔", "［"]
     "\\": {commit: "、"}
     "]": ["」", "】", "〕", "］"]
     "^": {commit: "……"}
     _: {commit: "——"}
-    "`": {commit: "`"}
+    "`": ["·", "`"]
     "{": ["『", "〖", "｛"]
     "|": ["·", "|", "｜", "§", "¦"]
     "}": ["』", "〗", "｝"]
@@ -345,7 +346,7 @@ speller:
   max_code_length: 4
 switches:
   - name: ascii_mode
-    reset: 1
+    reset: 0
     states: ["中文", "西文"]
   - name: full_shape
     states: ["半角", "全角"]
@@ -354,7 +355,7 @@ switches:
   - name: ascii_punct
     states: ["。，", "．，"]
 translator:
-  dictionary: ms_wubi86
+  dictionary: wubi86
   disable_user_dict_for_patterns:
     - "^z.*$"
   enable_charset_filter: true

@@ -1,0 +1,107 @@
+# Rime user dictionary
+#@/db_name	luna_pinyin
+#@/db_type	userdb
+#@/rime_version	1.8.5
+#@/tick	169
+#@/user_id	e32dbddb-bfb3-404f-91c2-17c188eae791
+ban jiao 	半角	c=1 d=0.537944 t=169
+bao han 	包含	c=1 d=0.489192 t=169
+ben ren de 	本人的	c=1 d=0.591555 t=169
+bi hua 	筆畫	c=3 d=2.54806 t=169
+biao dian 	標點	c=4 d=2.15034 t=169
+bu chang yong 	不常用	c=1 d=0.71177 t=169
+bu neng 	不能	c=1 d=0.640824 t=169
+can jian 	參見	c=2 d=1.11143 t=169
+chang yong zi 	常用字	c=1 d=0.615697 t=169
+chao guo 	超過	c=2 d=1.2863 t=169
+chong ma 	重碼	c=2 d=1.30265 t=169
+ci ku 	詞庫	c=2 d=1.2202 t=169
+ci pin 	詞頻	c=2 d=1.26747 t=169
+ci zu 	詞組	c=1 d=0.568562 t=169
+ci zu shu ru 	詞組輸入	c=1 d=0.748264 t=169
+dan zi 	單字	c=2 d=1.34131 t=169
+dao ru 	導入	c=1 d=0.481909 t=169
+de 	的	c=8 d=5.37035 t=169
+dong tai 	動態	c=2 d=1.25486 t=169
+dui yu 	對於	c=1 d=0.782705 t=169
+fan cha 	反查	c=1 d=0.852144 t=169
+fan ti 	繁體	c=1 d=0.806541 t=169
+fei chang 	非常	c=1 d=0.465334 t=169
+gai 	該	c=1 d=0.729789 t=169
+ge 	個	c=2 d=1.08578 t=169
+ge shu 	個數	c=1 d=0.460704 t=169
+he 	和	c=3 d=2.05918 t=169
+hen 	很	c=2 d=1.42714 t=169
+heng 	橫	c=1 d=0.873716 t=169
+hou xuan 	候選	c=1 d=0.515813 t=169
+hou xuan xiang 	候選項	c=1 d=0.57695 t=169
+ji bian shi 	即便是	c=1 d=0.697676 t=169
+ji hu 	幾乎	c=2 d=1.27351 t=169
+ji yu 	基於	c=6 d=4.68641 t=169
+jian hua zi 	簡化字	c=7 d=5.67805 t=169
+jian jie 	簡潔	c=1 d=0.551563 t=169
+jian ti zi 	簡體字	c=1 d=0.814647 t=169
+jin ru 	進入	c=0 d=0.0831104 t=169
+jing yan 	經驗	c=0 d=0.0591555 t=169
+jiu 	就	c=1 d=0.588605 t=169
+ju 	據	c=1 d=0.472367 t=169
+ju zi 	句子	c=2 d=0.944745 t=169
+jue da duo shu 	絕大多數	c=1 d=0.786628 t=169
+ke yi 	可以	c=0 d=0.0831104 t=169
+ke yi jin ru 	可以進入	c=1 d=0.83527 t=169
+ke yi yong 	可以用	c=1 d=0.822835 t=169
+kuo chong 	擴充	c=1 d=0.484325 t=169
+lai shuo 	來說	c=2 d=1.39203 t=169
+lian xiang 	聯想	c=1 d=1 t=169
+lv 	率	c=1 d=0.628135 t=169
+ma 	碼	c=1 d=0.66365 t=169
+mei ye 	每頁	c=2 d=1.02733 t=169
+mei you 	沒有	c=2 d=1.27989 t=169
+ming yue 	明月	c=1 d=0.900325 t=169
+ming yue pin yin 	朙月拼音	c=10 d=7.9681 t=169
+mo ren 	默認	c=1 d=0.559898 t=169
+mo shi 	模式	c=2 d=1.06269 t=169
+na 	捺	c=1 d=0.88692 t=169
+pei zhi 	配置	c=4 d=2.16112 t=169
+pie 	撇	c=1 d=0.882497 t=169
+pin yin 	拼音	c=2 d=1.29029 t=169
+qiao ji 	敲擊	c=1 d=0.826959 t=169
+qing kuang 	情況	c=2 d=1.4282 t=169
+quan jiao 	全角	c=1 d=0.519442 t=169
+quan pin 	全拼	c=6 d=4.65645 t=169
+san 	三	c=1 d=0.729963 t=169
+san ge 	三個	c=1 d=0.677057 t=169
+san wan yu 	三萬餘	c=1 d=0.798516 t=169
+sheng pi 	生僻	c=1 d=0.722527 t=169
+shi 	是	c=1 d=0.869358 t=169
+shi yong 	使用	c=0 d=0.0591555 t=169
+shi yong jing yan 	使用經驗	c=1 d=0.594521 t=169
+shu 	豎	c=1 d=0.878095 t=169
+shu ru 	輸入	c=2 d=1.15507 t=169
+shu ru fa 	輸入法	c=1 d=0.771052 t=169
+si kao 	思考	c=2 d=1.64983 t=169
+tiao zheng 	調整	c=2 d=1.26115 t=169
+tong 	同	c=2 d=1.35454 t=169
+tong guo 	通過	c=1 d=0.843665 t=169
+wan yu 	萬餘	c=0 d=0.0794534 t=169
+wei 	爲	c=3 d=1.5553 t=169
+wen jian 	文件	c=1 d=0.56836 t=169
+xiang 	項	c=1 d=0.549051 t=169
+xiang dui 	相對	c=1 d=0.532592 t=169
+xiang xi 	詳細	c=1 d=0.535261 t=169
+xiao lang hao 	小狼毫	c=1 d=0.431711 t=169
+ye bu 	也不	c=0 d=0.0740818 t=169
+ye bu zhi chi 	也不支持	c=1 d=0.744532 t=169
+ye jiu 	也就	c=1 d=0.644036 t=169
+ye shi 	也是	c=1 d=0.704688 t=169
+yi 	一	c=1 d=0.479505 t=169
+yi shang 	以上	c=1 d=0.680451 t=169
+yin 	因	c=2 d=1.16259 t=169
+yin wei 	因爲	c=2 d=1.54601 t=169
+you 	有	c=3 d=2.01285 t=169
+zhe 	折	c=2 d=1.7872 t=169
+zhi chi 	支持	c=1 d=0.541749 t=169
+zhi you 	只有	c=2 d=1.38439 t=169
+zi 	字	c=4 d=2.72425 t=169
+zui duo 	最多	c=1 d=0.625002 t=169
+zui gao 	最高	c=1 d=0.631284 t=169

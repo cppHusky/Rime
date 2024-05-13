@@ -1,0 +1,348 @@
+# Rime user dictionary
+#@/db_name	cangjie5
+#@/db_type	userdb
+#@/rime_version	1.10.0
+#@/tick	196
+#@/user_id	e32dbddb-bfb3-404f-91c2-17c188eae791
+ab 	明	c=1 d=0.618783 t=196
+agdi 	時	c=1 d=0.941765 t=196
+andh 	閉	c=2 d=1.64586 t=196
+anmt 	開	c=1 d=0.588605 t=196
+anvit 	關	c=2 d=1.63765 t=196
+asje 	最	c=1 d=0.865022 t=196
+bq 	用	c=2 d=0.813962 t=196
+buhjm 	睡	c=1 d=0.965605 t=196
+cnkq 	鍵	c=1 d=0.585669 t=196
+csh 	分	c=2 d=1.2011 t=196
+dam 	查	c=2 d=1.14958 t=196
+dkmym 	整	c=1 d=0.860708 t=196
+dm 	本	c=1 d=0.726149 t=196
+dmmf 	标	c=1 d=0.398519 t=196
+dtge 	樣	c=1 d=0.386741 t=196
+eapp 	混	c=1 d=0.551563 t=196
+edhe 	波	c=1 d=0.38868 t=196
+efb 	消	c=1 d=0.524663 t=196
+egi 	法	c=1 d=0.396531 t=196
+eiav 	浪	c=1 d=0.390628 t=196
+emhf 	源	c=1 d=0.680451 t=196
+fbnd 	学	c=1 d=0.425283 t=196
+fvok 	数	c=1 d=0.423162 t=196
+grmbc 	頡	c=1 d=0.559898 t=196
+hapi 	的	c=1 d=0.532592 t=196
+hbu 	自	c=3 d=2.00294 t=196
+he 	反	c=2 d=1.14385 t=196
+hgdi 	等	c=1 d=0.421052 t=196
+hghu 	先	c=1 d=0.637628 t=196
+hgks 	動	c=1 d=0.923116 t=196
+hhqu 	笔	c=2 d=0.991707 t=196
+hj 	千	c=1 d=0.404542 t=196
+hjwg 	重	c=1 d=0.900325 t=196
+hlq 	筆	c=2 d=1.35903 t=196
+hodi 	符	c=1 d=0.802519 t=196
+houuk 	微	c=1 d=0.701173 t=196
+hqi 	我	c=1 d=0.408608 t=196
+hqm 	生	c=1 d=0.640824 t=196
+hvp 	氏	c=1 d=0.394554 t=196
+ibpp 	能	c=2 d=0.990162 t=196
+iknf 	為	c=1 d=0.960789 t=196
+ine 	永	c=1 d=0.628135 t=196
+irok 	啟	c=1 d=0.591555 t=196
+jcm 	空	c=1 d=0.519442 t=196
+jjno 	軟	c=1 d=0.704688 t=196
+jjomn 	輸	c=7 d=4.31075 t=196
+jnd 	字	c=3 d=2.28828 t=196
+jvd 	案	c=2 d=0.844803 t=196
+k 	大	c=1 d=0.433874 t=196
+llmb 	师	c=1 d=0.431711 t=196
+lmp 	北	c=1 d=0.429557 t=196
+lmsy 	非	c=1 d=0.516851 t=196
+lnhe 	版	c=1 d=0.66034 t=196
+lsa 	间	c=1 d=0.382893 t=196
+lvok 	數	c=1 d=0.955997 t=196
+mbmbl 	需	c=1 d=0.767206 t=196
+mbuc 	頁	c=1 d=0.379083 t=196
+mdm 	五	c=4 d=2.33902 t=196
+mf 	不	c=2 d=1.47427 t=196
+mg 	王	c=1 d=0.625002 t=196
+mks 	功	c=1 d=0.548812 t=196
+mng 	型	c=1 d=0.657047 t=196
+mnmbc 	頂	c=1 d=0.878095 t=196
+mnr 	可	c=1 d=0.390628 t=196
+mrsqf 	碼	c=5 d=3.42337 t=196
+mwsu 	配	c=1 d=0.398519 t=196
+mwyoj 	醉	c=1 d=0.416862 t=196
+my 	下	c=1 d=0.414783 t=196
+nau 	色	c=1 d=0.402524 t=196
+nc 	小	c=1 d=0.380983 t=196
+nd 	子	c=1 d=0.818731 t=196
+nl 	引	c=1 d=0.579842 t=196
+nlmrb 	隔	c=2 d=1.18333 t=196
+nonhe 	發	c=1 d=0.615697 t=196
+o 	人	c=2 d=1.35167 t=196
+ob 	內	c=2 d=0.928417 t=196
+oh 	入	c=3 d=1.98108 t=196
+oiar 	倉	c=2 d=1.01781 t=196
+ojlk 	使	c=1 d=0.421052 t=196
+olnk 	候	c=2 d=1.39581 t=196
+omg 	全	c=2 d=1.13516 t=196
+otf 	無	c=2 d=1.65921 t=196
+otlm 	僅	c=1 d=0.416862 t=196
+pr 	句	c=1 d=0.814647 t=196
+qlmy 	排	c=1 d=0.45612 t=196
+qmv 	表	c=1 d=0.677057 t=196
+qni 	专	c=1 d=0.412714 t=196
+qtt 	拼	c=2 d=1.13544 t=196
+rc 	只	c=1 d=0.56836 t=196
+rmvs 	号	c=2 d=0.797395 t=196
+rnbk 	喚	c=1 d=0.427415 t=196
+romr 	哈	c=1 d=0.382893 t=196
+rrwj 	單	c=2 d=1.18717 t=196
+rvp 	民	c=1 d=0.634448 t=196
+semrt 	豎	c=1 d=0.514274 t=196
+seycg 	鹽水選種	c=1 d=0.444858 t=196
+seyt 	竪	c=1 d=0.447088 t=196
+sje 	取	c=1 d=0.522046 t=196
+smv 	長	c=1 d=0.869358 t=196
+stt 	屏	c=2 d=1.82843 t=196
+tgk 	美	c=1 d=0.418952 t=196
+tlbk 	英	c=3 d=1.77434 t=196
+tmtj 	華	c=1 d=0.392586 t=196
+utmo 	嵌	c=2 d=0.947458 t=196
+uu 	出	c=4 d=2.23568 t=196
+vfisb 	編	c=2 d=0.969629 t=196
+vio 	以	c=1 d=0.394554 t=196
+wfik 	默	c=3 d=1.31838 t=196
+wljbm 	置	c=1 d=0.398519 t=196
+ybbr 	過	c=1 d=0.57695 t=196
+yhmbc 	頻	c=1 d=0.843665 t=196
+yhs 	方	c=2 d=0.838415 t=196
+yk 	文	c=3 d=1.78816 t=196
+ym 	上	c=2 d=1.81931 t=196
+ynib 	通	c=1 d=0.574072 t=196
+yrbgr 	調	c=1 d=0.856415 t=196
+yrbmr 	詷	c=1 d=0.852144 t=196
+yrbr 	高	c=1 d=0.418952 t=196
+yrf 	点	c=1 d=0.402524 t=196
+yrhne 	設	c=1 d=0.396531 t=196
+yrsip 	認	c=4 d=2.29543 t=196
+yrsmr 	詞	c=3 d=1.80501 t=196
+yruc 	選	c=3 d=1.84324 t=196
+ytyr 	站	c=1 d=0.410656 t=196
+yudi 	導	c=1 d=0.582748 t=196
+yymr 	這	c=1 d=0.384812 t=196
+z 	我	c=1 d=0.414783 t=196
+encabo 	明人	c=0 d=0.0621885 t=196
+encahpdn 	關閉句子輸	c=0 d=0.0822835 t=196
+encahpr 	閉句	c=0 d=0.0814647 t=196
+encahprd 	閉句子	c=0 d=0.0818731 t=196
+encahprd 	關閉句子	c=0 d=0.0818731 t=196
+encahyrc 	閉詞頻	c=0 d=0.0843665 t=196
+encahyrc 	關閉詞頻	c=0 d=0.0843665 t=196
+encahyrr 	閉詞	c=0 d=0.0839457 t=196
+encakogj 	開啟全拼	c=0 d=0.0597501 t=196
+encakogt 	開啟全拼	c=0 d=0.0597501 t=196
+encakoje 	開啟全拼反	c=0 d=0.0600496 t=196
+encakote 	開啟全拼反	c=0 d=0.0600496 t=196
+encarndn 	閉句子輸	c=0 d=0.0822835 t=196
+encarnno 	閉句子輸入	c=0 d=0.0826959 t=196
+encatahr 	關閉句	c=0 d=0.0814647 t=196
+encatahr 	關閉詞	c=0 d=0.0839457 t=196
+encatanh 	關閉	c=0 d=0.083527 t=196
+encathkg 	開啟全	c=0 d=0.0594521 t=196
+encathrk 	開啟	c=0 d=0.0591555 t=196
+encatikg 	開啟全	c=0 d=0.0594521 t=196
+encatirk 	開啟	c=0 d=0.0591555 t=196
+encchnbi 	分隔符	c=0 d=0.0802519 t=196
+encchnlb 	分隔	c=0 d=0.0798516 t=196
+enccqant 	鍵開	c=0 d=0.0588605 t=196
+enccqatk 	鍵開啟	c=0 d=0.0591555 t=196
+enccthgj 	鍵開啟全拼	c=0 d=0.0597501 t=196
+enccthgt 	鍵開啟全拼	c=0 d=0.0597501 t=196
+enccthkg 	鍵開啟全	c=0 d=0.0594521 t=196
+encctigj 	鍵開啟全拼	c=0 d=0.0597501 t=196
+encctigt 	鍵開啟全拼	c=0 d=0.0597501 t=196
+encctikg 	鍵開啟全	c=0 d=0.0594521 t=196
+encdmmks 	查功	c=0 d=0.0548812 t=196
+encdmo 	本人	c=0 d=0.0729789 t=196
+encdmof 	本人不	c=0 d=0.0733447 t=196
+enceeeiv 	波浪	c=0 d=0.0390628 t=196
+enceimwu 	法配	c=0 d=0.0398519 t=196
+encenorc 	混輸倉頡	c=0 d=0.0559898 t=196
+encepjjn 	混輸	c=0 d=0.0554327 t=196
+encepjnr 	混輸倉	c=0 d=0.0557106 t=196
+encfkfbd 	数学	c=0 d=0.0425283 t=196
+enchedam 	反查	c=0 d=0.0603506 t=196
+enchedms 	反查功	c=0 d=0.0548812 t=196
+enchgmrf 	重碼	c=0 d=0.0904837 t=196
+enchgqem 	啟全拼反查	c=0 d=0.0603506 t=196
+enchgqje 	啟全拼反	c=0 d=0.0600496 t=196
+enchgqte 	啟全拼反	c=0 d=0.0600496 t=196
+enchifkd 	等数学	c=0 d=0.0425283 t=196
+enchifvk 	等数	c=0 d=0.0423162 t=196
+enchiytr 	我站	c=0 d=0.0410656 t=196
+enchjcsh 	千分	c=0 d=0.040657 t=196
+enchkjjo 	微軟	c=0 d=0.0704688 t=196
+enchkjom 	微軟五	c=0 d=0.070822 t=196
+enchkogj 	啟全拼	c=0 d=0.0597501 t=196
+enchkogt 	啟全拼	c=0 d=0.0597501 t=196
+enchkomg 	啟全	c=0 d=0.0594521 t=196
+enchommq 	微軟五筆	c=0 d=0.071177 t=196
+enchubq 	自用	c=0 d=0.038868 t=196
+enchuhgs 	自動	c=0 d=0.0923116 t=196
+enchuhqm 	先生	c=0 d=0.0640824 t=196
+encigqem 	啟全拼反查	c=0 d=0.0603506 t=196
+encigqje 	啟全拼反	c=0 d=0.0600496 t=196
+encigqte 	啟全拼反	c=0 d=0.0600496 t=196
+encikogj 	啟全拼	c=0 d=0.0597501 t=196
+encikogt 	啟全拼	c=0 d=0.0597501 t=196
+encikomg 	啟全	c=0 d=0.0594521 t=196
+encipojk 	能使	c=0 d=0.0421052 t=196
+encipybb 	能通過	c=0 d=0.057695 t=196
+encipynb 	能通	c=0 d=0.0574072 t=196
+encjdjjn 	字輸	c=0 d=0.0755784 t=196
+encjdjno 	字輸入	c=0 d=0.0759572 t=196
+encjdmng 	字型	c=0 d=0.0657047 t=196
+encjdycj 	案選單	c=0 d=0.0442639 t=196
+encjdym 	字上	c=0 d=0.088692 t=196
+encjdymt 	字上屏	c=0 d=0.0891366 t=196
+encjdyrc 	案選	c=0 d=0.0440432 t=196
+encjno 	輸入	c=0 d=0.0826959 t=196
+encjnoi 	輸入法	c=0 d=0.0396531 t=196
+encjnoir 	輸倉	c=0 d=0.0557106 t=196
+encjnorc 	輸倉頡	c=0 d=0.0559898 t=196
+encjnuu 	輸出	c=1 d=1 t=196
+encjoeiu 	輸入法配	c=0 d=0.0398519 t=196
+encjomdm 	軟五	c=0 d=0.070822 t=196
+encjommq 	軟五筆	c=0 d=0.071177 t=196
+enclanbs 	间隔号	c=0 d=0.0386741 t=196
+enclanlb 	间隔	c=0 d=0.0384812 t=196
+enclbk 	师大	c=0 d=0.0433874 t=196
+enclkikf 	數為	c=0 d=0.0960789 t=196
+enclplbk 	北师大	c=0 d=0.0433874 t=196
+enclpllb 	北师	c=0 d=0.0431711 t=196
+encmcjdm 	頂字上	c=0 d=0.088692 t=196
+encmcjnd 	頂字	c=0 d=0.0882497 t=196
+encmcokc 	頁候選	c=0 d=0.0951229 t=196
+encmcolk 	頁候	c=0 d=0.0946485 t=196
+encmdymt 	頂字上屏	c=0 d=0.0891366 t=196
+encmjtgk 	醉美	c=0 d=0.0418952 t=196
+encmkyck 	頁候選數	c=0 d=0.0955997 t=196
+encmkykf 	頁候選數為	c=0 d=0.0960789 t=196
+encmmhhu 	五笔	c=0 d=0.0612626 t=196
+encmmhlq 	五筆	c=0 d=0.071177 t=196
+encnbhoi 	隔符	c=0 d=0.0802519 t=196
+encnbrms 	隔号	c=0 d=0.0386741 t=196
+encndjjn 	子輸	c=0 d=0.0822835 t=196
+encndjno 	子輸入	c=0 d=0.0826959 t=196
+encneab 	發明	c=0 d=0.0618783 t=196
+encneabo 	發明人	c=0 d=0.0621885 t=196
+encnicqt 	引導鍵開	c=0 d=0.0588605 t=196
+encnictk 	引導鍵開啟	c=0 d=0.0591555 t=196
+encnlyiq 	引導鍵	c=0 d=0.0585669 t=196
+encnlyui 	引導	c=0 d=0.0582748 t=196
+encobuob 	內嵌編	c=0 d=0.0463013 t=196
+encobuto 	內嵌	c=0 d=0.0460704 t=196
+encoclkf 	候選數為	c=0 d=0.0960789 t=196
+encocock 	每頁候選數	c=0 d=0.0955997 t=196
+encocokc 	每頁候選	c=0 d=0.0951229 t=196
+encocyry 	候選詞排	c=0 d=0.045612 t=196
+encoedms 	全反查功	c=0 d=0.0548812 t=196
+encoegi 	入法	c=0 d=0.0396531 t=196
+encoeiu 	入法配	c=0 d=0.0398519 t=196
+encofhgf 	無重碼	c=0 d=0.0904837 t=196
+encofhjg 	無重	c=0 d=0.0900325 t=196
+encofmbb 	無需	c=0 d=0.0767206 t=196
+encoghe 	全反	c=0 d=0.0543351 t=196
+encoghem 	全反查	c=0 d=0.0546074 t=196
+encogqje 	全拼反	c=0 d=0.0600496 t=196
+encogqte 	全拼反	c=0 d=0.0600496 t=196
+encogqtt 	全拼	c=0 d=0.0597501 t=196
+encogqyj 	全拼	c=0 d=0.0597501 t=196
+encojhem 	全拼反查	c=0 d=0.0603506 t=196
+encokyck 	候選數	c=0 d=0.0955997 t=196
+encokycr 	候選詞	c=0 d=0.0453845 t=196
+encokyrc 	候選	c=0 d=0.0951229 t=196
+encomf 	人不	c=0 d=0.0733447 t=196
+encomibp 	僅能	c=0 d=0.0418952 t=196
+encomipk 	僅能使	c=0 d=0.0421052 t=196
+encoovbf 	內嵌編碼	c=0 d=0.0465334 t=196
+encorgrc 	倉頡	c=0 d=0.0559898 t=196
+encothem 	全拼反查	c=0 d=0.0603506 t=196
+encoymck 	每頁候	c=0 d=0.0946485 t=196
+encpdjno 	句子輸入	c=0 d=0.0826959 t=196
+encprnd 	句子	c=0 d=0.0818731 t=196
+encprndn 	句子輸	c=0 d=0.0822835 t=196
+encqghem 	拼全反查	c=0 d=0.0546074 t=196
+encqghms 	拼全反查功	c=0 d=0.0548812 t=196
+encqjhe 	拼反	c=0 d=0.0600496 t=196
+encqjhem 	拼反查	c=0 d=0.0603506 t=196
+encqjoge 	拼全反	c=0 d=0.0543351 t=196
+encqjomg 	拼全	c=0 d=0.0540641 t=196
+encqthe 	拼反	c=0 d=0.0600496 t=196
+encqthem 	拼反查	c=0 d=0.0603506 t=196
+encqtoge 	拼全反	c=0 d=0.0543351 t=196
+encqtomg 	拼全	c=0 d=0.0540641 t=196
+encqvemf 	表源	c=0 d=0.0680451 t=196
+encrcibp 	只能	c=0 d=0.0571209 t=196
+encrcipb 	只能通	c=0 d=0.0574072 t=196
+encrkuu 	喚出	c=0 d=0.0429557 t=196
+encrphgu 	民先	c=0 d=0.0637628 t=196
+encrphum 	民先生	c=0 d=0.0640824 t=196
+encrpybb 	只能通過	c=0 d=0.057695 t=196
+encseefb 	取消	c=0 d=0.0524663 t=196
+encskycr 	竪候選詞	c=0 d=0.0453845 t=196
+encskyry 	竪候選詞排	c=0 d=0.045612 t=196
+encstagi 	屏時	c=0 d=0.0941765 t=196
+encstokc 	竪候選	c=0 d=0.0451581 t=196
+encstolk 	竪候	c=0 d=0.0449329 t=196
+enctjhvp 	華氏	c=0 d=0.0394554 t=196
+enctkjnu 	英文輸出	c=0 d=0.040657 t=196
+enctkyk 	英文	c=0 d=0.0402524 t=196
+enctkykn 	英文輸	c=0 d=0.0404542 t=196
+encuovbf 	嵌編碼	c=0 d=0.0465334 t=196
+encuovfb 	嵌編	c=0 d=0.0463013 t=196
+encvbmrf 	編碼	c=0 d=0.0509156 t=196
+encvewkp 	以設置默認	c=0 d=0.0402524 t=196
+encvewmk 	以設置默	c=0 d=0.0400517 t=196
+encvoyem 	以設置	c=0 d=0.0398519 t=196
+encvoyre 	以設	c=0 d=0.0396531 t=196
+encwkykk 	置默認英文	c=0 d=0.040657 t=196
+encwkypi 	默認的	c=0 d=0.0532592 t=196
+encwkypk 	置默認英	c=0 d=0.0404542 t=196
+encwkypk 	默認英	c=0 d=0.0404542 t=196
+encwkyrp 	默認	c=0 d=0.0970446 t=196
+encwmwfk 	置默	c=0 d=0.0400517 t=196
+encwmwkp 	置默認	c=0 d=0.0402524 t=196
+encwptkk 	默認英文	c=0 d=0.040657 t=196
+encwptkn 	默認英文輸	c=0 d=0.0408608 t=196
+encybhgi 	高等	c=0 d=0.0421052 t=196
+encybhik 	高等数	c=0 d=0.0423162 t=196
+encybybb 	通過	c=0 d=0.057695 t=196
+encyclkf 	選數為	c=0 d=0.0960789 t=196
+encyclvk 	選數	c=0 d=0.0955997 t=196
+encycrrj 	選單	c=0 d=0.0442639 t=196
+encycyrr 	選詞	c=0 d=0.0453845 t=196
+encycyry 	選詞排	c=0 d=0.045612 t=196
+encyewlm 	設置	c=0 d=0.0398519 t=196
+encyewmk 	設置默	c=0 d=0.0400517 t=196
+encyicnq 	導鍵	c=0 d=0.0585669 t=196
+encyicqt 	導鍵開	c=0 d=0.0588605 t=196
+encyifkd 	高等数学	c=0 d=0.0425283 t=196
+encykjjn 	文輸	c=0 d=0.0404542 t=196
+encykjnu 	文輸出	c=0 d=0.1 t=196
+encykykn 	認英文輸	c=0 d=0.0404542 t=196
+encykynu 	認英文輸出	c=0 d=0.040657 t=196
+encymsti 	上屏時	c=0 d=0.0941765 t=196
+encymstt 	上屏	c=0 d=0.0937067 t=196
+encymwkp 	設置默認	c=0 d=0.0402524 t=196
+encymwpk 	設置默認英	c=0 d=0.0404542 t=196
+encyphai 	認的	c=0 d=0.0532592 t=196
+encyptkk 	認英文	c=0 d=0.0402524 t=196
+encyptlk 	認英	c=0 d=0.0400517 t=196
+encyqakg 	導鍵開啟全	c=0 d=0.0594521 t=196
+encyqatk 	導鍵開啟	c=0 d=0.0591555 t=196
+encyrdte 	這樣	c=0 d=0.0386741 t=196
+encyrqly 	詞排	c=0 d=0.045612 t=196
+encyrset 	詞豎	c=0 d=0.0514274 t=196
+encyryhc 	詞頻	c=0 d=0.0843665 t=196
+encysjvd 	方案	c=0 d=0.040657 t=196
