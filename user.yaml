@@ -1,14 +1,14 @@
 var:
-  last_build_time: 1715565482
+  last_build_time: 1718263924
   option:
     ascii_punct: false
     extended_charset: true
     full_shape: false
-  previously_selected_schema: cangjie5
+  previously_selected_schema: wubi86
   schema_access_time:
     bopomofo_tw: 1710655140
-    cangjie5: 1715560689
+    cangjie5: 1718261488
     luna_pinyin: 1708923400
-    luna_pinyin_simp: 1711791326
-    wubi86: 1715557210
+    luna_pinyin_simp: 1718261486
+    wubi86: 1718263348
     wubi_86: 1708322264

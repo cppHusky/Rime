@@ -1,5 +1,5 @@
 __build_info:
-  rime_version: 1.10.0
+  rime_version: 1.11.1
   timestamps:
     default: 1654509030
     default.custom: 1715563994
@@ -7,7 +7,7 @@ __build_info:
     key_bindings.custom: 0
     punctuation: 1654509030
     punctuation.custom: 0
-    wubi86.custom: 1715170254
+    wubi86.custom: 1718263902
     wubi86.schema: 1715170254
 engine:
   processors:
@@ -312,7 +312,7 @@ recognizer:
   import_preset: default
   patterns:
     email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
-    reverse_lookup: "^z[a-z]*'?$"
+    reverse_lookup: "^`[a-z]*'?$"
     uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
     url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
 reverse_lookup:
@@ -321,7 +321,7 @@ reverse_lookup:
     - "xform/([nl])v/$1ü/"
     - "xform/([nl])ue/$1üe/"
     - "xform/([jqxy])v/$1u/"
-  prefix: z
+  prefix: "`"
   suffix: "'"
   tips: "〔拼音〕"
 schema:
@@ -332,7 +332,7 @@ schema:
   description: |
     五筆字型86版
     碼表源自 微軟五筆 
-    敲 z 鍵進入拼音反查
+    敲 ` 鍵進入拼音反查
 
   name: "五笔86"
   schema_id: wubi86
@@ -355,10 +355,7 @@ switches:
     states: ["。，", "．，"]
 translator:
   dictionary: ms_wubi86
-  disable_user_dict_for_patterns:
-    - "^z.*$"
   enable_charset_filter: true
-  enable_encoder: true
   enable_sentence: false
   enable_user_dict: false
   encode_commit_history: true

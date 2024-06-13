@@ -9,7 +9,7 @@ patch:
     description: |
       五筆字型86版
       碼表源自 微軟五筆 
-      敲 z 鍵進入拼音反查
+      敲 ` 鍵進入拼音反查
 
     name: "五笔86"
     schema_id: wubi86
@@ -54,10 +54,7 @@ patch:
     max_code_length: 4 #最長4碼
   translator:
     dictionary: ms_wubi86
-    disable_user_dict_for_patterns:
-      - "^z.*$"
     enable_charset_filter: true
-    enable_encoder: true
     enable_sentence: false #關閉句子輸入
     enable_user_dict: false #關閉詞頻調整
     encode_commit_history: true
@@ -67,7 +64,7 @@ patch:
       - xform/([nl])v/$1ü/
       - xform/([nl])ue/$1üe/
       - xform/([jqxy])v/$1u/
-    prefix: "z"
+    prefix: "`"
     suffix: "'"
     tips: "〔拼音〕"
   punctuator:
@@ -78,6 +75,6 @@ patch:
     import_preset: default
     patterns:
       email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
-      reverse_lookup: "^z[a-z]*'?$"
+      reverse_lookup: "^`[a-z]*'?$"
       uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
       url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
