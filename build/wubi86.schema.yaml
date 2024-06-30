@@ -2,13 +2,13 @@ __build_info:
   rime_version: 1.11.1
   timestamps:
     default: 1654509030
-    default.custom: 1715563994
+    default.custom: 1719715977
     key_bindings: 1654509030
     key_bindings.custom: 0
     punctuation: 1654509030
     punctuation.custom: 0
-    wubi86.custom: 1718263902
-    wubi86.schema: 1715170254
+    wubi86.custom: 1719711682
+    wubi86.schema: 1719714538
 engine:
   processors:
     - ascii_composer
@@ -39,7 +39,6 @@ menu:
   page_size: 3
 punctuator:
   full_shape:
-    " ": {commit: "　"}
     "!": {commit: "！"}
     "\"": {pair: ["“", "”"]}
     "#": ["＃", "⌘", "№"]

@@ -1,12 +1,12 @@
 __build_info:
-  rime_version: 1.10.0
+  rime_version: 1.11.1
   timestamps:
     bopomofo.custom: 0
     bopomofo.schema: 1612175964
-    bopomofo_tw.custom: 1715170254
+    bopomofo_tw.custom: 1719711682
     bopomofo_tw.schema: 1612175964
     default: 1654509030
-    default.custom: 1715563994
+    default.custom: 1719715977
     grammar: 0
     key_bindings: 1654509030
     key_bindings.custom: 0

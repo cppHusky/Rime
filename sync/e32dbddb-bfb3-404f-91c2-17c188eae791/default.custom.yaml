@@ -19,7 +19,6 @@ patch:
       - { when: has_menu, accept: bracketright, send: Page_Down }
   punctuator:
     full_shape:
-      " ": {commit: "　"}
       "`": {commit: "｀"}
       "~": {commit: "～"}
       "!": {commit: "！"}

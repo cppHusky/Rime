@@ -1,8 +1,8 @@
 __build_info:
-  rime_version: 1.10.0
+  rime_version: 1.11.1
   timestamps:
     default: 1654509030
-    default.custom: 1715563994
+    default.custom: 1719715977
     key_bindings: 1654509030
     key_bindings.custom: 0
     punctuation: 1654509030
@@ -58,7 +58,6 @@ menu:
   page_size: 9
 punctuator:
   full_shape:
-    " ": {commit: "　"}
     "!": {commit: "！"}
     "\"": {pair: ["“", "”"]}
     "#": ["＃", "⌘", "№"]

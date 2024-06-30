@@ -1,10 +1,10 @@
 __build_info:
-  rime_version: 1.10.0
+  rime_version: 1.11.1
   timestamps:
-    cangjie5.custom: 1715170254
+    cangjie5.custom: 1719711682
     cangjie5.schema: 1702580968
     default: 1654509030
-    default.custom: 1715563994
+    default.custom: 1719715977
     key_bindings: 1654509030
     key_bindings.custom: 0
     punctuation: 1654509030
@@ -45,7 +45,6 @@ menu:
   page_size: 3
 punctuator:
   full_shape:
-    " ": {commit: "　"}
     "!": {commit: "！"}
     "\"": {pair: ["“", "”"]}
     "#": ["＃", "⌘", "№"]
