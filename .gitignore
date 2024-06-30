@@ -1,0 +1,13 @@
+*.userdb/
+build/
+sync/
+**/*.yaml
+**/*.bin
+!**/*.custom.yaml
+!cangjie5_plus.dict.yaml
+!luna_pinyin.cn_en.dict.yaml
+!luna_pinyin.extended.dict.yaml
+!luna_pinyin.hanyu.dict.yaml
+!luna_pinyin.poetry.dict.yaml
+!ms_wubi86.dict.yaml
+!wubi86.schema.yaml

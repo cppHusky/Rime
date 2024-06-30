@@ -1,0 +1,8 @@
+customization:
+  distribution_code_name: Rime
+  distribution_version: 5.1.6
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Mon May 13 10:00:35 2024"
+  rime_version: 1.10.0
+patch/+:
+  style/font_face: "Hanazono Mincho A, Hanazono Mincho B, Hanazono Mincho C, Hanazono Mincho Ex A1, Hanazono Mincho Ex A2, Hanazono Mincho Ex B, Hanazono Mincho Ex C" #使用顯示字體「花園明朝」系列

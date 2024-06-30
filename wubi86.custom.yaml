@@ -1,0 +1,80 @@
+# wubi86 for Rime custom settings
+
+patch:
+  schema:
+    author:
+      - "發明人 王永民先生"
+    dependencies:
+      - pinyin_simp
+    description: |
+      五筆字型86版
+      碼表源自 微軟五筆 
+      敲 ` 鍵進入拼音反查
+
+    name: "五笔86"
+    schema_id: wubi86
+    version: 0.21
+  menu:
+    import_preset: default
+    page_size: 3 #每頁候選數為3
+  engine:
+    processors:
+      - ascii_composer
+      - recognizer
+      - key_binder
+      - speller
+      - punctuator
+      - selector
+      - navigator
+      - express_editor
+    segmentors:
+      - ascii_segmentor
+      - matcher
+      - abc_segmentor
+      - punct_segmentor
+      - fallback_segmentor
+    translators:
+      - punct_translator
+      - reverse_lookup_translator
+      - table_translator
+  switches:
+    - name: ascii_mode
+      reset: 1 #默認英文輸出
+      states: [ 中文, 西文 ]
+    - name: full_shape
+      states: [ 半角, 全角 ]
+    - name: extended_charset
+      states: [ 常用, 增廣 ]
+    - name: ascii_punct
+      states: ["。，", "．，"]
+  speller:
+    auto_select: true #頂字上屏
+    auto_select_unique_candidate: true #無重碼自動上屏
+    delimiter: {} #單字輸入時無需分隔符
+    max_code_length: 4 #最長4碼
+  translator:
+    dictionary: ms_wubi86
+    enable_charset_filter: true
+    enable_sentence: false #關閉句子輸入
+    enable_user_dict: false #關閉詞頻調整
+    encode_commit_history: true
+  reverse_lookup:
+    dictionary: pinyin_simp
+    preedit_format:
+      - xform/([nl])v/$1ü/
+      - xform/([nl])ue/$1üe/
+      - xform/([jqxy])v/$1u/
+    prefix: "`"
+    suffix: "'"
+    tips: "〔拼音〕"
+  punctuator:
+    import_preset: default
+  key_binder:
+    import_preset: default
+  recognizer:
+    import_preset: default
+    patterns:
+      email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
+      reverse_lookup: "^`[a-z]*'?$"
+      uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
+      url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
