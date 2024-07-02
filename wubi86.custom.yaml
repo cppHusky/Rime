@@ -59,12 +59,13 @@ patch:
     enable_user_dict: false #關閉詞頻調整
     encode_commit_history: true
   reverse_lookup:
-    dictionary: pinyin_simp
+    dictionary: luna_pinyin
     preedit_format:
-      - xform/([nl])v/$1ü/
-      - xform/([nl])ue/$1üe/
-      - xform/([jqxy])v/$1u/
+      - "xform/([nl])v/$1ü/"
+      - "xform/([nl])ue/$1üe/"
+      - "xform/([jqxy])v/$1u/"
     prefix: "`"
+    prism: luna_pinyin
     suffix: "'"
     tips: "〔拼音〕"
   punctuator:
