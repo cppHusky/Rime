@@ -1,0 +1,4 @@
+# japanese for Rime custom settings
+
+patch:
+  "switches/@0/reset": 1
