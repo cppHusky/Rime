@@ -64,7 +64,7 @@ patch:
     dictionary: clover
     preedit_format:
       - "xform/([nljqxy])v/$1ü/"
-    tips: "〔〕"
+    tips: "〔拼音〕"
   punctuator:
     import_preset: default
   key_binder:

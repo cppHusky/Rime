@@ -14,8 +14,6 @@ schema:
       3. 加上很多特殊符号的输入支持
       4. 繁简切换支持
       5. 许多智能纠错
-  dependencies:
-    - emoji
 
 switches:
   - name: zh_simp_s2t
