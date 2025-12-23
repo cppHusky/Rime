@@ -11,7 +11,7 @@
 #
 # 傳統漢字優先，偏好台灣用字習慣，符合《常用國字標準字體表》的字形將排在前面。
 ---
-name: "cangjie5_plus"
+name: cangjie5
 version: "2025.09.27"
 sort: original
 use_preset_vocabulary: false

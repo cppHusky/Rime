@@ -17,7 +17,7 @@ patch:
   speller/auto_select_unique_candidate: true #無重碼自動上屏
   speller/delimiter: {} #單字輸入時無需分隔符
   speller/max_code_length: 5 #最長5碼
-  translator/dictionary: cangjie5_plus
+  translator/dictionary: cangjie5
   translator/comment_format:
     - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜片～|"
   translator/enable_encoder: false #關閉自動造詞

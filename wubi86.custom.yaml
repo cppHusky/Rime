@@ -53,7 +53,7 @@ patch:
     delimiter: {} #單字輸入時無需分隔符
     max_code_length: 4 #最長4碼
   translator:
-    dictionary: ms_wubi86
+    dictionary: wubi86
     enable_charset_filter: true
     enable_sentence: false #關閉句子輸入
     enable_user_dict: false #關閉詞頻調整
