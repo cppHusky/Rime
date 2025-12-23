@@ -12,6 +12,7 @@ patch:
   schema_list:
     - {schema: wubi86}
     - {schema: cangjie5}
+    - {schema: xuma23}
     - {schema: japanese}
   key_binder/bindings: #僅能使用[ ]鍵翻頁
       - { when: has_menu, accept: bracketleft, send: Page_Up }
