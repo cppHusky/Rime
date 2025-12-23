@@ -1,7 +1,0 @@
-# luna_pinyin_simp for Rime custom settings
-
-patch:
-  menu/page_size: 5 #每頁候選數為5
-  "switches/@0/reset": 1 #默認英文輸出
-  punctuator:
-    import_preset: default

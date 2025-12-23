@@ -1,6 +1,8 @@
 # cangjie5 for Rime custom settings
 
 patch:
+  schema/dependencies:
+    - clover
   "switches/@0/reset": 1 #默認英文輸出
   menu/page_size: 3 #每頁候選數為3
   punctuator:
@@ -8,11 +10,8 @@ patch:
   recognizer:
     import_preset: default
     patterns:
-      email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
-      punct: "^/([0-9]0?|[A-Za-z]+)$"
       reverse_lookup: "^`[a-z]*'?$" #只能通過`引導鍵開啟全拼反查
       uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
-      url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
   abc_segmentor/extra_tags: {} #取消默認的倉頡全拼混輸功能
   speller/auto_select: true #頂字上屏
   speller/auto_select_unique_candidate: true #無重碼自動上屏
@@ -28,7 +27,12 @@ patch:
   translator/sentence_over_completion: false #關閉自動補全式組句
   translator/preedit_format:
     - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜片|"
-  reverse_lookup/comment_format:
-    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜片|"
-  reverse_lookup/dictionary: luna_pinyin
-  reverse_lookup/prism: luna_pinyin
+  reverse_lookup:
+    prefix: "`"
+    suffix: "'"
+    dictionary: clover
+    comment_format:
+      - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜片|"
+    preedit_format:
+      - "xform/([nljqxy])v/$1ü/"
+    tips: "〔拼音〕"

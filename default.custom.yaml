@@ -11,9 +11,7 @@ patch:
     - Control+F4 #僅能使用Control+F4喚出方案選單
   schema_list:
     - {schema: wubi86}
-    - {schema: luna_pinyin_simp}
     - {schema: cangjie5}
-    - {schema: bopomofo_tw}
     - {schema: japanese}
   key_binder/bindings: #僅能使用[ ]鍵翻頁
       - { when: has_menu, accept: bracketleft, send: Page_Up }
