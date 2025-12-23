@@ -4,8 +4,6 @@ patch:
   schema:
     author:
       - "發明人 王永民先生"
-    dependencies:
-      - pinyin_simp
     description: |
       五筆字型86版
       碼表源自 微軟五筆 
@@ -14,6 +12,8 @@ patch:
     name: "五笔86"
     schema_id: wubi86
     version: 0.21
+    dependencies:
+      - clover
   menu:
     import_preset: default
     page_size: 3 #每頁候選數為3
@@ -40,11 +40,11 @@ patch:
   switches:
     - name: ascii_mode
       reset: 1 #默認英文輸出
-      states: [ 中文, 西文 ]
+      states: ["中文","西文"]
     - name: full_shape
-      states: [ 半角, 全角 ]
+      states: ["半角","全角"]
     - name: extended_charset
-      states: [ 常用, 增廣 ]
+      states: ["常用","增廣"]
     - name: ascii_punct
       states: ["。，", "．，"]
   speller:
@@ -59,23 +59,17 @@ patch:
     enable_user_dict: false #關閉詞頻調整
     encode_commit_history: true
   reverse_lookup:
-    dictionary: luna_pinyin
-    preedit_format:
-      - "xform/([nl])v/$1ü/"
-      - "xform/([nl])ue/$1üe/"
-      - "xform/([jqxy])v/$1u/"
     prefix: "`"
-    prism: luna_pinyin
     suffix: "'"
-    tips: "〔拼音〕"
+    dictionary: clover
+    preedit_format:
+      - "xform/([nljqxy])v/$1ü/"
+    tips: "〔〕"
   punctuator:
     import_preset: default
   key_binder:
     import_preset: default
   recognizer:
-    import_preset: default
     patterns:
-      email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
       reverse_lookup: "^`[a-z]*'?$"
       uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
-      url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
