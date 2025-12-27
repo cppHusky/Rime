@@ -1,13 +1,12 @@
-# 徐码23
+# 宇浩·日月
 # encoding: utf-8
 
 schema:
-  schema_id: xuma23
-  name: 徐码23
-  version: 20230915
+  schema_id: yuming
+  name: 宇浩·日月
+  version: 已巳立夏
   author:
-    - 发明人 徐国银先生
-    - Rime 方案维护 forFudan
+    - 作者 朱宇浩
   dependencies:
     - clover
 switches:
@@ -25,6 +24,7 @@ engine:
     - ascii_composer
     - recognizer
     - key_binder
+    - lua_processor@*yuming_auto_select_postponed
     - speller
     - punctuator
     - selector
@@ -53,13 +53,14 @@ recognizer:
     uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
   import_preset: default
 speller:
+  alphabet: abcdefghijklmnopqrstuvwxyz
   auto_select: true
-  auto_select_unique_candidate: true
+  auto_select_pattern: "^([b-df-hj-np-tv-y]{0,4})[aeiou]|[b-df-hj-np-tv-y]{5}"
   delimiter:
     {}
-  max_code_length: 4
+  max_code_length: 5
 translator:
-  dictionary: xuma23
+  dictionary: yuming
   enable_charset_filter: true
   enable_sentence: false
   enable_user_dict: false
