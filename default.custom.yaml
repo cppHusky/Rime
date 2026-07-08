@@ -7,6 +7,13 @@ customization:
   modified_time: "Mon Feb 19 08:02:50 2024"
   rime_version: 1.8.5
 patch:
+  ascii_composer/good_old_caps_lock: true
+  ascii_composer/switch_key:
+    Shift_L: noop
+    Shift_R: noop
+    Control_L: noop
+    Control_R: noop
+    Caps_Lock: commit_code
   switcher/hotkeys:
     - Control+F4 #僅能使用Control+F4喚出方案選單
   schema_list:
@@ -14,9 +21,11 @@ patch:
     - {schema: cangjie5}
     - {schema: yuming}
     - {schema: japanese}
-  key_binder/bindings: #僅能使用[ ]鍵翻頁
-      - { when: has_menu, accept: bracketleft, send: Page_Up }
-      - { when: has_menu, accept: bracketright, send: Page_Down }
+  key_binder/bindings:
+    #僅能使用[ ]鍵翻頁
+    - { when: has_menu, accept: bracketleft, send: Page_Up }
+    - { when: has_menu, accept: bracketright, send: Page_Down }
+    - { when: always, accept: Control+Escape, toggle: ascii_mode }
   punctuator:
     full_shape:
       " ": ["　"]
